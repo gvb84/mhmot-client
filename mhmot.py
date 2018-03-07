@@ -387,10 +387,12 @@ load_database()
 try:
 	delete_game(c1, c2)
 
-	for i in range(0, 1000):
-		play_game(c1, c2)
-		time.sleep(15)
-		save_database()
+	# play two games with a 15sec timeout in between
+	play_game(c1, c2)
+	time.sleep(15)
+	play_game(c1, c2)
+
+	save_database()
 
 except Exception as e:
 	print(e)
