@@ -1,0 +1,10 @@
+See the code itself. Released under the terms of the BEER-WARE LICENSE.
+
+It's a simple client written in Python3.x. The only dependency is
+python3-requests. It enables one to emulate the Met Het Mes Op Tafel Android
+app and play games programmatically. I used it to pit some bots against
+eachother, attain the weekly high-score and acquire a database with answers to
+all the questions. I did not use it to play against human players as it's no
+fun to ruin other people's fun game.
+
+Use it for benevolent, learning and fun purposes only is my advice. 
